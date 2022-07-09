@@ -82,13 +82,11 @@
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
-    border: 1px solid black;
-    background-color: aqua;
 }
 
 .card {
     text-align: center;
-    border: 1px solid red;
+    color: white;
     margin: 10px;
     width: 400px;
     height: 400px;
@@ -105,4 +103,31 @@
 
 .card img {
     padding-top: 100px;
+}
+
+.card h1 {
+    font-size: 42px;
+}
+
+.card p {
+    padding: 20px;
+}
+
+
+#card-bg1 {
+    background-image: url(./images/hipcravo-5UbIqV58CW8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card-bg2 {
+    background-image: url(./images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card-bg3 {
+    background-image: url(./images/penguinuhh-8VI6WwEEEHw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
